@@ -202,7 +202,7 @@ git clone https://github.com/watermelon-clap/attendance-app.git
 Move into the project directory:
 
 ```bash
-cd employee-attendance-system
+cd attendance-app
 ```
 
 Install dependencies:

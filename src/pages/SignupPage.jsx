@@ -8,6 +8,7 @@ export default function SignupPage() {
   const [form, setForm] = useState({
     full_name: "",
     username: "",
+    class: "",
     email: "",
     password: "",
   });
@@ -28,6 +29,7 @@ export default function SignupPage() {
       setForm({
         full_name: "",
         username: "",
+        class: "",
         email: "",
         password: "",
       });
@@ -89,6 +91,20 @@ return (
             setForm({
               ...form,
               username: e.target.value,
+            })
+          }
+          required
+        />
+
+        <input
+          className="auth-input"
+          type="text"
+          placeholder="Class"
+          value={form.class}
+          onChange={(e) =>
+            setForm({
+              ...form,
+              class: e.target.value,
             })
           }
           required

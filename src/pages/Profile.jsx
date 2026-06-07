@@ -65,6 +65,16 @@ export default function Profile() {
 
           <div className="profile-row">
             <span>
+              Class
+            </span>
+
+            <strong>
+              {profile.class}
+            </strong>
+          </div>
+
+          <div className="profile-row">
+            <span>
               Email
             </span>
 

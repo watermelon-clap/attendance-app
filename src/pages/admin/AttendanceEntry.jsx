@@ -103,7 +103,7 @@ export default function AttendanceEntry() {
               key={u.id}
               value={u.id}
             >
-              {u.full_name}
+              {u.full_name} (Class {u.class})
             </option>
           ))}
         </select>

@@ -43,6 +43,7 @@ return (
             <tr>
               <th>Name</th>
               <th>Username</th>
+              <th>Class</th>
               <th>Status</th>
               <th>Action</th>
             </tr>
@@ -64,6 +65,10 @@ return (
 
                   <td>
                     {user.username}
+                  </td>
+
+                  <td>
+                    {user.class}
                   </td>
 
                   <td>
@@ -136,6 +141,10 @@ return (
 
                 <p>
                   @{user.username}
+                </p>
+
+                <p>
+                  Class {user.class}
                 </p>
 
                 <div className="user-status-row">

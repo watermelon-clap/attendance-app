@@ -98,7 +98,7 @@ return (
 
         <input
           className="auth-input"
-          type="text"
+          type="number"
           placeholder="Class"
           value={form.class}
           onChange={(e) =>

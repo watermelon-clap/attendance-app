@@ -58,6 +58,7 @@ export async function register(form) {
   const {
     full_name,
     username,
+    class: studentClass,
     email,
     password,
   } = form;
@@ -85,6 +86,7 @@ export async function register(form) {
       id: userId,
       full_name,
       username,
+      class: Number(studentClass),
       email,
       role: "user",
       is_active: false,
